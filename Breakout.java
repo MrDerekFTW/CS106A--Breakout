@@ -17,6 +17,10 @@ import java.awt.event.*;
 //import com.sun.prism.paint.Color;
 
 public class Breakout extends GraphicsProgram {
+	
+	public static void main(String[] args) {
+		new Breakout().start(args);
+	}
 
 /** Width and height of application window in pixels */
 	public static final int APPLICATION_WIDTH = 600;
